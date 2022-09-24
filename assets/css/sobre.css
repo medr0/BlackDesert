@@ -1,0 +1,172 @@
+.sobre {
+    background: url(../img/bg-main2.jpg) no-repeat center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre__caixa-1 {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+.sobre__titulo {
+    color: rgba(255, 255, 255, .95);
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.sobre__texto {
+    color: rgba(233, 228, 221, .5);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.sobre__titulo1 {
+    color: #372c1d;
+}
+
+.sobre__texto1 {
+    color: #1c1103;
+}
+
+.sobre__caixa-2 {
+    display: flex;
+    margin-top: 200px;
+}
+
+.sobre__caixa-2-esquerda {
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.sobre__caixa-2-imagem {
+    width: 50%;
+}
+
+
+.sobre__caixa-3 {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.container__caixa-3 {    
+    background: url(../img/sobre2.jpg) bottom no-repeat;
+    height: 350px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.sobre__caixa-3-imagem1 {
+    height: 620px;
+    align-self: flex-end;
+}
+
+.caixa3__titulo {
+    position: absolute;
+    top: 85%;
+    left: 1%;
+}
+
+.sobre__caixa-4 {
+    color: white;
+    position: relative;
+    display: grid;
+    grid-template-areas:
+    '. . . . . . img1 img1'
+    'cont1 cont1 . . . . img1 img1'
+    'cont1 cont1 cont2 cont2 cont2 cont2 img1 img1'
+    'cont1 cont1 cont2 cont2 cont2 cont2 img1 img1'
+    'cont1 cont1 cont2 cont2 cont2 cont2 . .'
+    'cont1 cont1 . . . img2 img2 .'
+    '. . . . . img2 img2 .';
+}
+
+.container__caixa-4 {
+    background: url(../img/sobre4.jpg) center no-repeat;
+    display: flex;
+}
+
+.imagem1__caixa4 {
+    align-self: flex-end;
+}
+
+.container2__caixa-4 {
+    width: 450px;
+    padding: 0 50px 0 100px;
+}
+
+.container3__img2 {
+    margin-bottom: 80px;
+}
+
+.passaro {
+    position: relative;
+    left: 420px;
+    top: 120px;
+}
+
+.container__caixa-4 {
+    grid-area: cont1;
+}
+
+.container2__caixa-4 {
+    grid-area: cont2;
+}
+
+.container3__img1 {
+    grid-area: img1;
+}
+
+.container3__img2 {
+    grid-area: img2;
+}
+
+.sobre__botao {
+    background: transparent;
+    color: white;
+    border-color: rgb(231, 211, 167);
+    border: 1px solid rgba(204, 182, 138, .25);
+    padding: .75rem 1rem;
+    margin-top: 50px;
+    width: 180px;
+    cursor: pointer;
+    
+}
+
+.sobre__botao:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(185, 148, 72, 0.25);
+    transition: .25s;
+}
+
+.sobre__2 {
+    background: url(../img/bg-main3.jpg) center no-repeat;
+    text-align: center;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre__2-titulo {
+    font-size: 56px;
+    color: rgba(255, 255, 255, .95);
+}
+
+.sobre__2-texto {
+    font-size: 16px;
+    color: rgba(206, 227, 250, 1);
+    margin-top: 45px;
+}

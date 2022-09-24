@@ -1,0 +1,76 @@
+.principal {
+    background: url(../img/bg-main.jpg) no-repeat center;
+    display: grid;
+    grid-template-areas: 
+        'card1 card2 card2 container2'
+        'card1 container1 container1 container2'
+        'card1 container1 container1 container2';
+    column-gap: 15px;
+    row-gap: 15px;
+    padding: 80px 200px;
+}
+
+.principal__container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+
+.principal__container-2 {
+    display: grid;
+    row-gap: 15px;
+}
+
+.principal__container-3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 15px;
+}
+
+.principal__card-imagem {
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.principal__card:hover {
+    scale: 1.05;
+    border: solid 2px rgba(227, 188, 102, 1);
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.principal__card-escrita {
+    position: absolute;
+    padding: 1rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+
+.principal__card-titulo {
+    color: white;
+}
+
+.principal__card-texto {
+    color: rgba(227, 188, 102, 1);
+    font-size: .8rem;
+}
+
+.principal__grid1 {
+    grid-area: card1;
+    display: grid;
+}
+
+.principal__grid2 {
+    grid-area: card2;
+    display: grid;
+}
+
+.principal__container-1 {
+    grid-area: container1;
+}
+
+.principal__container-2 {
+    grid-area: container2;
+}

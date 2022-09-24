@@ -1,0 +1,415 @@
+.classes {
+    background: url(../img/bg-main4.jpg) center no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px 200px 200px;
+    position: relative;
+    overflow: visible;
+    height: 60vh;
+}
+
+.classes__bg {
+    background: url(../img/warrior.png) top no-repeat;
+    height: 100%;
+}
+
+.classes__escrita {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-left: 190px;
+}
+
+.classes__container {
+    margin-left: 150px;
+}
+
+.classes__titulo {
+    font-size: 54px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 110px;
+}
+
+.classes__texto {
+    color: rgba(233, 228, 221, 0.7);
+    margin: 20px 0;
+}
+
+.classes__link {
+    font-size: 14px;
+    color: #796852;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.classes__link:hover {
+    color: #fcd9a4;
+    transition: .5s;
+}
+
+
+.classes__lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.classes__caixa {
+    width: 82px;
+    height: 82px;
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+    background: url(../img/all_classes.jpg) no-repeat;
+    background-size: 726px 542px;
+    cursor: pointer;
+}
+
+.classes__botao {
+    width: 320px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #dcb15c;
+    margin-top: 70px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+}
+
+.classes__botao::before {
+    content: '';
+    background: rgba(85, 64, 20, 0.1);
+    position: absolute;
+    width: 320px;
+    height: 65px;
+    left: 390px;
+    top: 335px;
+    border-radius: 5px;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    transition: clip-path 300ms ease-in-out;
+}
+
+.classes__botao:hover::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.classes-1 {
+    background-position: 0 -276px;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-1:hover {
+    background-position: 0 -276px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-2 {
+    background-position: -92px 0;
+}
+
+.classes-2:hover {
+    background-position: -92px -276px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-3 {
+    background-position: 0 -92px;
+}
+
+.classes-3:hover {
+    background-position: 0 -368px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-4 {
+    background-position: -184px 0;
+}
+
+.classes-4:hover {
+    background-position: -184px -276px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-5 {
+    background-position: -460px 0;
+}
+
+.classes-5:hover {
+    background-position: -460px -276px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-6 {
+    background-position: -92px -92px;
+}
+
+.classes-6:hover {
+    background-position: -92px -368px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-7 {
+    background-position: 0 -184px;
+}
+
+.classes-7:hover {
+    background-position: 0 -460px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-8 {
+    background-position: -368px 0;
+}
+
+.classes-8:hover {
+    background-position: -368px -276px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-9 {
+    background-position: -276px -92px;
+}
+
+.classes-9:hover {
+    background-position: -276px -368px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-10 {
+    background-position: -368px -92px;
+}
+
+.classes-10:hover {
+    background-position: -368px -368px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-11 {
+    background-position: -184px -92px;
+}
+
+.classes-11:hover {
+    background-position: -184px -368px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-12 {
+    background-position: -276px 0;
+}
+
+.classes-12:hover {
+    background-position: -276px -276px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-13 {
+    background-position: -460px -92px;
+}
+
+.classes-13:hover {
+    background-position: -460px -368px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-14 {
+    background-position: -644px 0;
+}
+
+.classes-14:hover {
+    background-position: -644px -276px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-15 {
+    background-position: -552px -92px;
+}
+
+.classes-15:hover {
+    background-position: -552px -368px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-16 {
+    background-position: -644px -92px;
+}
+
+.classes-16:hover {
+    background-position: -644px -368px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-17 {
+    background-position: -552px 0;
+}
+
+.classes-17:hover {
+    background-position: -552px -276px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-18 {
+    background-position: -92px -184px;
+}
+
+.classes-18:hover {
+    background-position: -92px -460px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-19 {
+    background-position: -184px -184px;
+}
+
+.classes-19:hover {
+    background-position: -184px -460px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-20 {
+    background-position: -276px -184px;
+}
+
+.classes-20:hover {
+    background-position: -276px -460px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-21 {
+    background-position: -368px -184px;
+}
+
+.classes-21:hover {
+    background-position: -368px -460px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-22 {
+    background-position: -460px -184px;
+}
+
+.classes-22:hover {
+    background-position: -460px -460px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-23 {
+    background-position: -552px -184px;
+}
+
+.classes-23:hover {
+    background-position: -552px -460px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.classes-24 {
+    background-position: -644px -184px;
+}
+
+.classes-24:hover {
+    background-position: -644px -460px;
+    scale: 1.05;
+    border: 2px solid #dcb15c;
+    transition: border .3s;
+}
+
+.historia {
+    background: url(../img/bg-main5.jpg) bottom no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.historia__titulo {
+    font-size: 46px;
+    color: #191614;
+    font-weight: bold;
+}
+
+.historia__botao {
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 58px;
+    width: 390px;
+    height: 78px;
+    background: rgba(220, 177, 92, 1);
+    border: none;
+    border-radius: 5px;
+}
+
+.historia__botao::before {
+    content: '';
+    background: rgba(85, 64, 20, 0.1);
+    position: absolute;
+    width: 390px;
+    height: 78px;
+    left: 56px;
+    top: 105px;
+    border-radius: 5px;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    transition: clip-path 300ms ease-in-out;
+}
+
+.historia__botao:hover::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
